@@ -1,0 +1,26 @@
+{
+    "name": "gsferro/odometer-easy",
+    "type": "library",
+    "license": "MIT",
+    "tags" : ["Laravel", "Plugin", "Odometer", "Easy"],
+    "description": "Use the plugin odometer in project Laravel easy",
+    "authors": [
+        {
+            "name": "Guilherme Ferro",
+            "email": "gsferroti@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gsferro\\OdometerEasy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gsferro\\OdometerEasy\\Providers\\OdometerEasyServiceProvider",
+            ]
+        }
+    }
+}
