@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gsferro\\OdometerEasy\\Providers\\OdometerEasyServiceProvider",
+                "Gsferro\\OdometerEasy\\Providers\\OdometerEasyServiceProvider"
             ]
         }
     }
