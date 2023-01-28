@@ -49,8 +49,7 @@ value=100;
 odo.update( value );
 value+=100;
 odo.update( value );
-```
-1. Se for utilizar decimal, é necessário passar o paramentro :format="<veja as opções na documentação oficial>" 
+``` 
 
 ### TODO
 
